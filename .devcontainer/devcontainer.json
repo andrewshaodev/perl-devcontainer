@@ -1,10 +1,10 @@
 {
-  "name": "Perl Development",
-  "dockerFile": "Dockerfile",
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
+  "name": "Perl Dev Container",
+  "image": "perl:latest",
   "extensions": [
-    "perl/perl"
-  ]
+    "perl/vscode-perl"
+  ],
+  "settings": {
+    "perl.perlPath": "/usr/bin/perl"
+  }
 }
